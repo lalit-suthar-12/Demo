@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Secureyes User Guide</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+    </head>
+    <style>
+        p{
+            font-size: medium;
+        }
+    </style>
+    <body>
+
+        <!--wrapper start-->
+        <div class="wrapper">
+            <!--header menu start-->
+            <div class="header">
+                <div class="header-menu">
+                    <div class="title"><span>Secureyes Infusing Security</span></div>
+                    <div class="sidebar-btn">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <!-- <ul>
+                        <li><a href="#"><i class="fas fa-search"></i></a>
+                            <input type="text" placeholder="Search...">
+                        </li>
+                    </ul> -->
+                </div>
+            </div>
+            <!--header menu end-->
+            <!--sidebar start-->
+            <div class="sidebar">
+                <div class="sidebar-menu">
+                    <center class="profile">
+                        <img src="static/72.png" alt="">
+                        <p>Secureyes Infusing Security</p>
+                    </center>
+                    <h3 style="color:#fff">Odoo Documentation</h3>
+                    <!-- <li class="item">
+                        <a href="#" class="menu-btn">
+                            <i class="fas fa-desktop"></i><span>Home</span>
+                        </a>
+                    </li> -->
+                    <!-- <li class="item" id="profile">
+                        <a href="#profile" class="menu-btn">
+                            <i class="fas fa-user-circle"></i><span>Odoo Documentation</span>
+                        </a>
+                        <div class="sub-menu">
+                            <a href="hr.html"><i class="fas fa-image"></i><span>HR</span></a>
+                            <a href="pr.html"><i class="fas fa-address-card"></i><span>Project Management</span></a>
+                            <a href="sl.html"><i class="fas fa-address-card"></i><span>Sales</span></a>
+                        </div>
+                    </li> -->
+                    <li class="item" id="messages">
+                        <a href="hr.html" class="menu-btn">
+                            <i class="fas fa-user"></i><span>HR</span>
+                        </a>
+                    </li>
+                    <li class="item" id="messages">
+                        <a href="pr.html" class="menu-btn">
+                            <i class="fas fa-folder"></i><span>Project Management</span>
+                        </a>
+                    </li>
+                    <li class="item" id="messages">
+                        <a href="sl.html" class="menu-btn">
+                            <i class="fas fa-universal-access"></i><span>Sales</i></span>
+                        </a>
+                    </li>
+                    <li class="item" id="settings">
+                        <a href="https://odooerp.secureyes.net/" class="menu-btn">
+                            <span>Return to Odoo ERP</span>
+                        </a>
+                        <!-- <div class="sub-menu">
+                            <a href="sr.html"><i class="fas fa-lock"></i><span>SR</span></a>
+                            <a href="emp.html"><i class="fas fa-language"></i><span>EMP</span></a>
+                        </div> -->
+                    </li>
+                    <!-- <li class="item">
+                        <a href="cu.html" class="menu-btn">
+                            <i class="fas fa-info-circle"></i><span>Contact Us</span>
+                        </a>
+                    </li> -->
+                </div>
+            </div>
+            <!--sidebar end-->
+            <!--main container start-->
+            <div class="main-container">
+                <h1>ODOO PROJECT MANAGEMENT</h1>
+                <div class="card">
+                    <h2>CONTENT</h2>
+                    <p> <h3><a href="#pr">Introduction</a></h3>
+                        <h3><a href="#pr1">Roles</a></h3>
+                        <h3><a href="#pr2">Creating Project Templates</a></h3>
+                        <h3><a href="#pr3">Creating Projects and allocating Resources</a></h3>
+                        <h3><a href="#pr4">Entering Time Sheets</a></h3>
+                        <h2 id="pr">INTRODUCTION</h2>
+                        Odoo is an opensource ERP and CRM suite with ability to automate entire business operations including but not limited CRM, HR operations, billing, accounting, Project management and Inventory management.
+                        SecurEyes has Implemented Odoo to automate its project management workflow end-to-end including relevant HR, Sales and Finance operations to enable effective tracking of projects and efforts spent on all operational activity.
+                        This guide specifies the flow of events and various roles involved in the project management module and provides detailed steps to perform all Project Management activity including Project Creation, Allocation of resources, reporting project status and recording efforts spent on each activity by Associates based on their timesheet entries.
+                        Odoo deployed on production shall be accessible at “https://odoo.secureyes.net/”
+                        <h2>SCOPE</h2> 
+                        This document is applicable to all employees and contractors of SecurEyes who are on Billable or Non-billable roles.
+                        All departments including support departments shall use Odoo PM module to allocate and track their daily activity and report the efforts put on each activity to senior management.
+                        All associates are required to comply with the guidelines as described by HR and non-compliance with Odoo requirements is punishable as per the Odoo Non-compliance policy published by SecurEyes HR
+                        <h2>ODOO ADVANTAGE</h2>
+                        Automation of the end-to-end project management Process
+                        One stop-shop for Individual and project level activity tracking
+                        Avoid filling multiple trackers for the same activity (Internal/Client)
+                        Single application to track leaves and daily attendance
+                        Customise reports to show the status based on various parameters
+                        Centrally manage project and task allocations
+                        Single platform to manage HR, Sales, Project Management, Performance management and Leaves
+                        <h2 id="pr1">ROLES</h2>
+                            <b>1. Program Manager</b>
+                        Program manager shall be responsible to evaluate the type of projects received by various teams and create required Project templates to accommodate the various activity performed in each type of project, also program manager shall be responsible to generate reports and track status of all projects across each department.<br>
+                            <b>2. Project Manager</b>
+                        Project manager shall be responsible for managing individual projects, Identification of necessary templates, allocation of resources, allocation of team leads and tracking of over all project status and billing.<br>
+                           <b>3. Project Lead</b>
+                        Project Leads shall be responsible for allocating the individual tasks to associates at a granular level and update the resource allocation as the project progresses, Leads are required to ensure all associates update their Time sheets and attendance daily.<br>
+                           <b>4. Auditor</b>
+                        Auditors are required to login and logout every day and capture the details of work performed daily for the projects that were allocated to them by Project managers and tasks allocated by project Leads<br>
+                        <h2>PREREQUISITES</h2>
+                        Projects are created by Sales team based on the PO received from customers and allocated to respective Project managers
+                        Users are created by HR and onboarded with necessary roles by IT
+                        Odoo hosted on cloud and is accessible over Internet to all employees’ vendors and potential Hires with their respective entitlements 
+                        Periodic security review of the deployed and newly incorporated modules/components is performed, and all identified issues are fixed by respective stake holders
+                        No user will perform unauthorized testing or activity which may compromise the integrity of the data or impact the confidentiality of personal information beyond their permitted use/role.
+                        <h2>ACCESS TO PM MODULE</h2>
+                        Project Management Module can be accessed by selecting the Project Icon from Dashboard.
+                        <img src="static/69.png" alt="" width="1000"><br>
+                        By default, project management module is only accessible to Program managers, Project Managers and Project Leads Only
+                        Auditors are not required to access Project module.
+                        <h2 id="pr2">CREATING PROJECT TEMPLATES</h2>
+                        Role: Program Manager
+                        Frequency: when a new project type is identified, when new tasks are required to be added to existing project types, when new business verticals are initiated
+                        Steps:
+                        Project - > Project Templates -> Create
+                        Enter the Name of the Task -> Select Task -> and enter the list of tasks for each stage. 
+                        <img src="static/70.png" alt="" width="1000"><br>
+                        Tasks can be created in the List view and reorganized in the Kanban view 
+                        <h2 id="pr3">CREATING PROJECTS AND ALLOCATING RESOURCES</h2>
+                        <h2 id="pr4">ENTERING TIME SHEETS</h2>
+                        • Dashboard - > Timesheets -> Create -> Enter Date ->
+                        • Select Project Code (It will be assigned by PM, from that respective project code need to select) ->
+                        • Description (Resource need to fill what activity performed for the day) ->
+                        • Duration (Need to fill how many hours spent) ->
+                        • Submit.
+                        <img src="static/71.png" alt="" width="1000"><br>
+                    </p>
+                </div>
+            </div>
+            <!--main container end-->
+        </div>
+        <!--wrapper end-->
+
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $(".sidebar-btn").click(function(){
+                $(".wrapper").toggleClass("collapse");
+            });
+        });
+        </script>
+
+    </body>
+</html>
+      
